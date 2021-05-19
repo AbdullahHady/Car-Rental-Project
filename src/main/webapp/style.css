@@ -1,0 +1,43 @@
+body {
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+nav {
+    height: 100px;
+}
+
+nav > div {
+    margin-left: 50%;
+    float: right;
+}
+
+.nav-text {
+    padding-right: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline;
+}
+
+#container {
+    min-height: 500px;
+}
+
+.link {
+    color: cornflowerblue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#description {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 220px;
+    padding-right: 220px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#map {
+    height: 300px;
+}
